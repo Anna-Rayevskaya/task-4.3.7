@@ -1,0 +1,81 @@
+body{
+    background: rgb(99, 92, 105);
+}
+
+.container{
+    color: black;
+    width: 660px;
+    min-height: 310px;
+    background: #d1b0e1;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 30px rgb(41, 25, 57);
+    padding: 70px;
+}
+
+.search{
+    border: none;
+    width: 650px;
+    height: 61px;
+    font-size: 25px;
+    padding-left: 5px;
+    border-radius: 5px;
+    border-bottom: 1px solid #d1b0e1;
+}
+
+.autocomplete{
+    width: 650px;
+    font-size: 25px;
+    padding-left: 0;
+    margin: 0;
+}
+
+.box{
+    background: #fafafa;
+    border-radius: 5px;
+}
+
+.repository{
+    display: block;
+    width: 650px;
+    list-style: none;
+    margin: 0;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.repository:hover{
+    background: #bad7de;
+    
+}
+
+.added-repositories{
+    width: 650px;
+    font-size: 25px;
+    padding-left: 0;
+    margin: 0;
+}
+
+.added-repository{
+    display: block;
+    width: 650px;
+    list-style: none;
+    margin-top: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    background: #d2eaf0;
+    position: relative;
+}
+
+.img-del{
+    position: absolute;
+    bottom: 25px;
+    right: 30px;
+}
+
+.img-del-onclick{
+    transition-duration: 1000ms;
+    transform: rotate(180deg);
+}
